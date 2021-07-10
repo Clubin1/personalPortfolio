@@ -16,11 +16,11 @@ const Navbar = () => {
                 </div>
                 <div className="middleNav">
                     <ul>
-                        <li className="navItem"> <a href="#">Home</a></li>
+                        <li className="navItem"> <a href="#Home">Home</a></li>
                         <li className="navItem"> <a href="#About">About</a></li>
-                        <li className="navItem"> <a href="#">Projects</a></li>
-                        <li className="navItem"> <a href="#">Skills</a></li>
-                        <li id="bottomBorder" className="navItem"> <a href="#">Contact</a></li>
+                        <li className="navItem"> <a href="#Projects">Projects</a></li>
+                        <li className="navItem"> <a href="#Skills">Skills</a></li>
+                        <li id="bottomBorder" className="navItem"> <a href="#Contact">Contact</a></li>
                     </ul>
 
                 </div>
