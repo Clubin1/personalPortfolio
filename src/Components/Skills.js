@@ -3,7 +3,7 @@ import Particles from 'react-particles-js';
 
 const Skills = () => {
     return (
-        <div>
+        <div className="thing">
             <Particles className="skillsLanding"
     params={{
 	    "particles": {
@@ -75,9 +75,7 @@ const Skills = () => {
                     A small gallery of recent projects chosen by me. I've done them all together with amazing
                     <br></br>people from companies around the globe. It's only a drop in the ocean compared to the entire list.
                 </p>
-                <button className="btn btnPosition">
-                    <a href="#contact">Contact Me!</a>
-                </button>
+                <img alt="Stack skills" className="skillItem" src="https://upload.wikimedia.org/wikipedia/commons/9/94/MERN-logo.png"></img>
             </div>
         </div>
 

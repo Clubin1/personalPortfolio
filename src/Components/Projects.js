@@ -9,17 +9,17 @@ const Projects = () => {
                         View Project
                     </button>
                 </div>
-                <div className="projectItem">
+                <div className="projectItem2">
                     <button className="itemButton">
                         View Project
                     </button>
                 </div>
-                <div className="projectItem">
+                <div className="projectItem3">
                     <button className="itemButton">
                         View Project
                     </button>
                 </div>
-                <div className="projectItem">
+                <div className="projectItem4">
                     <button className="itemButton">
                         View Project
                     </button>

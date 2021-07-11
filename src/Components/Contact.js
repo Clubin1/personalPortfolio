@@ -6,12 +6,12 @@ const Contact = () => {
             <div id="Contact" className="contact">
                 <div className="row">
                     <div className="col">
-                        <h1>Contact Form</h1>
-                        <p>
-                        I’m interested in freelance opportunities – especially ambitious or large projects. However, if you have other request or question, don’t hesitate to use the form.
+                        <h1 className="contactTitle">Contact Form</h1>
+                        <h6 className="contactSub">
+                            I’m interested in freelance opportunities – especially ambitious or large projects.<br></br> However, if you have other request or question, don’t hesitate to use the form.
 
 
-                        </p>
+                        </h6>
                     <div id="contact-wrapper">
             <div class="contact-container">
                 <form id="con">
@@ -31,7 +31,7 @@ const Contact = () => {
                     <textarea name="message"  placeholder="Type Your Message Here...." tabindex="5" type="message" required></textarea>
                     </fieldset>
                   <fieldset>
-                    <button name="submit" type="submit" id="conbtn" className="button contactButton"data-submit="...Sending">Submit a message</button>
+                    <button name="submit" type="submit" className=" contactButton"data-submit="...Sending">Submit a message!</button>
                 </fieldset>
                 </form>
             </div>
