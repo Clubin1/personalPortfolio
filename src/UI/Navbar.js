@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import '../Assets/CSS/styles.css'
 const Navbar = () => {
     
@@ -19,16 +19,15 @@ const Navbar = () => {
                         <li className="navItem"> <a href="#Home">Home</a></li>
                         <li className="navItem"> <a href="#About">About</a></li>
                         <li className="navItem"> <a href="#Projects">Projects</a></li>
-                        <li className="navItem"> <a href="#Skillss">Skills</a></li>
+                        <li className="navItem"> <a href="#Skills">Skills</a></li>
                         <li id="bottomBorder" className="navItem"> <a href="#Contact">Contact</a></li>
                     </ul>
 
                 </div>
 
                 <div className="bottomNav">
-                    <FaGithub className="navFooterItem"/>
-                    <FaLinkedin className="navFooterItem"/>
-                    <FaTwitter className="navFooterItem"/>
+                    <a href="https://github.com/Clubin1"><FaGithub className="navFooterItem"/></a>
+                    <a href="https://www.linkedin.com/in/justin-tubay-97793a196/"><FaLinkedin className="navFooterItem"/></a>
                 </div>
             </div>
     )

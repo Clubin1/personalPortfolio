@@ -66,14 +66,14 @@ const Skills = () => {
 	    "retina_detect": false
 	}} />
             <div id="Skills" className="skills">
-                <h1>My Portfolio</h1>
+                <h1>My Skills</h1>
                 <p>
-                    A small gallery of recent projects chosen by me. I've done them all together with amazing
-                    <br></br>people from companies around the globe. It's only a drop in the ocean compared to the entire list.
+                    I am very experienced in the MERN stack. I have had a lot of applicable real world experience with my
+                    <br></br>freelancing projects and internships.
                 </p>
                 <p className="margin">
-                    A small gallery of recent projects chosen by me. I've done them all together with amazing
-                    <br></br>people from companies around the globe. It's only a drop in the ocean compared to the entire list.
+                    I understand advanced React topics such as routing, environmental variables, redux and the DOM.
+                    <br></br>I am also capable of creating database infrastructures with Mongo and capable of writting requests.
                 </p>
                 <img alt="Stack skills" className="skillItem" src="https://upload.wikimedia.org/wikipedia/commons/9/94/MERN-logo.png"></img>
             </div>

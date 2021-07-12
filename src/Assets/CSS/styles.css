@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    
 }
 
 html{
@@ -22,6 +23,7 @@ html{
     color: white;
     font-size: 2.3rem;
     margin-left: 14rem;
+    overflow-y: hidden;
 }
 
 .textColor{
@@ -36,7 +38,6 @@ html{
     font-size: 1rem;
     color:rgb(133, 133, 133);
     transition: 200ms ease all;
-
 }
 
 .landingShadow{
@@ -73,6 +74,8 @@ html{
 }
 .position{
     position: absolute;
+    overflow-y: hidden;
+    padding-bottom: 1rem;
 }
 .position::before{
     content: '<h1>';
@@ -107,7 +110,8 @@ html{
     padding: .8rem 1rem .8rem 1rem;
     transition: 200ms ease all;
     margin-top: 1rem;
-    z-index: 10!important
+    z-index: 10!important;
+    text-align:center
 }
 
 .btn:hover{
@@ -123,12 +127,13 @@ a{
     text-decoration: none;
 } 
 
-.btn a{
+.btn{
     text-decoration: none;
     color:#08fdd8;
     font-size: 1rem;
     font-weight: 100!important;
     letter-spacing: 1.5px;
+    width: 10rem!important;
 }
 
 .sideNav{
@@ -205,10 +210,10 @@ a{
     background:transparent;
 }
 
-.position2:hover a{
+.position2:hover{
     color:#08fdd8!important;
 }
-.position2 a {
+.position2  {
     color:black!important;
 
 }
@@ -253,8 +258,8 @@ a{
 }
 .projectItem{
     background: linear-gradient(
-        rgba(0, 0, 0, 0.63), 
-        rgba(0, 0, 0, 0.63)),url("../images/Capture1.PNG");
+        rgba(0, 0, 0, 0.86), 
+        rgba(0, 0, 0, 0.86)),url("../images/Capture1.PNG");
     z-index: 10;
     height: 22rem;
     width: 25%;
@@ -271,8 +276,8 @@ a{
 
 .projectItem:hover{
     background: linear-gradient(
-        rgba(0, 0, 0, 0.33), 
-        rgba(0, 0, 0, 0.3)),url("../images/Capture1.PNG");
+        rgba(0, 0, 0, 0.76), 
+        rgba(0, 0, 0, 0.76)),url("../images/Capture1.PNG");
     background-position: center;
     background-size: cover;
     transition: 200ms ease all;
@@ -280,8 +285,8 @@ a{
 
 .projectItem2{
     background: linear-gradient(
-        rgba(0, 0, 0, 0.63), 
-        rgba(0, 0, 0, 0.63)),url("../images/Capture2.PNG");
+        rgba(0, 0, 0, 0.86), 
+        rgba(0, 0, 0, 0.86)),url("../images/Capture2.PNG");
     z-index: 10;
     height: 22rem;
     width: 25%;
@@ -297,16 +302,16 @@ a{
 
 .projectItem2:hover{
     background: linear-gradient(
-        rgba(0, 0, 0, 0.33), 
-        rgba(0, 0, 0, 0.3)),url("../images/Capture2.PNG");
+        rgba(0, 0, 0, 0.76), 
+        rgba(0, 0, 0, 0.76)),url("../images/Capture2.PNG");
     background-position: center;
     background-size: cover;
     transition: 200ms ease all;
 }
 .projectItem3{
     background: linear-gradient(
-        rgba(0, 0, 0, 0.63), 
-        rgba(0, 0, 0, 0.63)),url("../images/Capture3.PNG");
+        rgba(0, 0, 0, 0.86), 
+        rgba(0, 0, 0, 0.86)),url("../images/Capture3.PNG");
     z-index: 10;
     height: 22rem;
     width: 25%;
@@ -322,16 +327,16 @@ a{
 
 .projectItem3:hover{
     background: linear-gradient(
-        rgba(0, 0, 0, 0.33), 
-        rgba(0, 0, 0, 0.3)),url("../images/Capture3.PNG");
+        rgba(0, 0, 0, 0.76), 
+        rgba(0, 0, 0, 0.76)),url("../images/Capture3.PNG");
     background-position: center;
     background-size: cover;
     transition: 200ms ease all;
 }
 .projectItem4{
     background: linear-gradient(
-        rgba(0, 0, 0, 0.63), 
-        rgba(0, 0, 0, 0.63)),url("../images/Capture4.PNG");
+        rgba(0, 0, 0, 0.86), 
+        rgba(0, 0, 0, 0.86)),url("../images/Capture4.PNG");
     z-index: 10;
     height: 22rem;
     width: 25%;
@@ -347,8 +352,8 @@ a{
 
 .projectItem4:hover{
     background: linear-gradient(
-        rgba(0, 0, 0, 0.33), 
-        rgba(0, 0, 0, 0.3)),url("../images/Capture4.PNG");
+        rgba(0, 0, 0, 0.76), 
+        rgba(0, 0, 0, 0.76)),url("../images/Capture4.PNG");
     background-position: center;
     background-size: cover;
     transition: 200ms ease all;
@@ -356,7 +361,6 @@ a{
 .itemButton{
     opacity: 0;
     width: 10rem;
-    height: 3rem;
     border: 2px solid #08fdd8;
     background: transparent;
     color:#08fdd8;
@@ -364,6 +368,23 @@ a{
 
 }
 
+.asd{
+    opacity: 0;
+    text-align: center;
+    width: 60%;
+}
+.projectItem:hover .asd{
+    opacity: 1!important;
+}
+.projectItem2:hover .asd{
+    opacity: 1!important;
+}
+.projectItem3:hover .asd{
+    opacity: 1!important;
+}
+.projectItem4:hover .asd{
+    opacity: 1!important;
+}
 .itemButton:hover{
     background-color: #08fdd8;
 }
@@ -734,4 +755,10 @@ a{
     .arrowOne, .arrowTop{
         left: 0rem;
     }
+}
+
+.status-message{
+    text-align: center;
+    color: #08fdd8;
+    font-weight: 100;
 }

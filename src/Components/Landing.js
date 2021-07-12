@@ -4,7 +4,7 @@ import Particles from 'react-particles-js';
 const Landing = () => {
     return (
         
-        <div className="Landing">
+        <div id="Home" className="Landing">
             <Particles className="particles"
             params={{
                 "particles": {
@@ -57,12 +57,11 @@ const Landing = () => {
             <div className="position">
             <h1 className="landingText">Hi,<br></br>I'm Justin Tubay, <br></br> A Developer.</h1>
             <h6 className="subText">Full-Stack Developer / Software Developer</h6>
-            <button className="btn">
-                <a href="#contact">Contact Me!</a>
-            </button>
-            <button className="btn position2">
-                <a href="#contact">Contact Me!</a>
-            </button>
+            
+            
+                <a className="btn aa"href="#contact">Contact Me!</a>
+            
+                <a className="btn aa position2"href="https://www.thenerodev.com">Freelancing !</a>
             </div>
             <div className="arrowOne">Scroll Down</div>
             <div className="arrowTop">Scroll Down</div>
