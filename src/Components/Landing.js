@@ -61,7 +61,7 @@ const Landing = () => {
             
                 <a className="btn aa"href="#contact">Contact Me!</a>
             
-                <a className="btn aa position2"href="https://www.thenerodev.com">Freelancing !</a>
+                <a className="btn aa position2"href="https://www.thenerodev.com">Freelancing!</a>
             </div>
             <div className="arrowOne">Scroll Down</div>
             <div className="arrowTop">Scroll Down</div>
